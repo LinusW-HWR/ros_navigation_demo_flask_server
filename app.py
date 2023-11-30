@@ -38,7 +38,7 @@ def run_navigation(x, y, z, w):
     python_interpreter = "/usr/bin/python3"
 
     # Set the path to your Python script
-    python_script = "/home/ubuntu/catkin_ws/src/auto_nav/scripts/goal_pose.py"
+    python_script = "~/catkin_ws/src/auto_nav/scripts/goal_pose.py"
 
     # Run the Python script using the specified interpreter
     subprocess.run(
